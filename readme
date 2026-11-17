@@ -1,0 +1,16 @@
+Tesla and GameStop Analysis — Questions 4, 5 and 6
+This repository contains a Google Colab/Jupyter notebook for the assignment tasks:
+Question 4: Web-scrape GameStop (GME) revenue data and display the last five rows using `gme_revenue.tail(5)`.
+Question 5: Download Tesla (TSLA) historical stock data and plot it using `make_graph()` with a graph title.
+Question 6: Download GameStop (GME) historical stock data and plot it using `make_graph()` with a graph title.
+Run in Google Colab
+Download `Tesla_GME_Questions_4_5_6.ipynb`.
+Open https://colab.research.google.com/
+Choose File → Upload notebook and select the downloaded notebook.
+Run the cells from top to bottom.
+Take screenshots of the output for Questions 4, 5 and 6 and upload each screenshot to its matching assignment question.
+Requirements
+The first setup cell installs `yfinance`, `lxml`, `html5lib`, and `plotly`. The notebook also uses pandas and requests.
+Internet access is required. The revenue table is read from StockAnalysis and historical stock data is downloaded from Yahoo Finance via yfinance. Website table layouts and data availability can change over time.
+GitHub upload
+Create a new public or private repository on GitHub, then upload this notebook and this README. The repository URL can then be pasted into the assignment's GitHub URL field.
